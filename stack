@@ -1,4 +1,19 @@
-# java
+import java.util.Stack;
 
+public class main {
 
-soml
+	public static void main(String[] args) {
+	
+		       Stack<String> animals= new Stack<>();
+		        // add element to stack
+		       
+		       animals.push("dog");
+		       animals.push("hourse");
+		       animals.push("cat");
+		       
+		       System.out.println("stack: " + animals);
+		       
+
+	}
+
+}
